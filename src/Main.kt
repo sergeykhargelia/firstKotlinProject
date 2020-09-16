@@ -10,5 +10,11 @@ fun prime(n: Int): Boolean {
 }
 
 fun main() {
-
+    val n = readLine()!!.toInt()
+    if (prime(n)) {
+        println("$n is a prime number")
+    }
+    else {
+        println("$n is not a prime number")
+    }
 }
